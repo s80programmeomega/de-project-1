@@ -1,0 +1,41 @@
+# Secrets and local config
+.env
+*.pem
+*.key
+
+# Data (never commit real or raw data)
+raw/
+data/
+*.parquet
+*.csv
+!tests/fixtures/*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# dbt
+dbt/target/
+dbt/dbt_packages/
+dbt/logs/
+
+# Airflow
+logs/
+airflow.db
+airflow-webserver.pid
+
+# Docker volumes
+pgdata/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

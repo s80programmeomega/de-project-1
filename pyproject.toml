@@ -1,0 +1,9 @@
+# Tool configuration for Week 0. Dependencies, the pipeline package and the
+# pytest settings are added in Week 5 when src/pipeline/ and tests/ exist.
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]  # errors, pyflakes, imports, upgrades, bugbear
