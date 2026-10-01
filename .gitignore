@@ -4,13 +4,6 @@
 *.key
 
 # Data (never commit real or raw data)
-raw/
-data/
-*.parquet
-*.csv
-!tests/fixtures/*.csv
-
-# Data (never commit real or raw data)
 /raw/
 /data/
 *.parquet
